@@ -1,0 +1,11 @@
+[package]
+name = "selinux_parser"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+nom = "8.0.0"
+thiserror = "2.0.21"
+
+[lints]
+workspace = true

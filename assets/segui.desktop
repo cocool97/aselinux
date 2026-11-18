@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=segui
+Comment=Explore Android SELinux policies and their file/property contexts
+Exec=segui %F
+Icon=segui
+Terminal=false
+Categories=Development;Security;
+StartupWMClass=segui

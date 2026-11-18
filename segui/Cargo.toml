@@ -1,0 +1,19 @@
+[package]
+name = "segui"
+authors = ["Corentin LIAUD"]
+description = "GUI to explore Android SELinux policies and their file/property contexts"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+anyhow = "1"
+eframe = { version = "0.37", features = ["persistence"] }
+egui_extras = "0.37"
+env_logger = "0.11"
+log = "0.4"
+regex = "1"
+rfd = "0.18"
+selinux_parser = { path = "../selinux_parser" }
+
+[lints]
+workspace = true
